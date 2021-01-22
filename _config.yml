@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: maxvoltar.photo
-email: tim@maxvoltar.be
+title: colormono.photo
+email: hello@colormono.com
 author:
-  name: Tim Van Damme
-  email: tim@maxvoltar.be #optional
-  website: https://maxvoltar.com
+  name: Mariano Rivas
+  email: hello@colormono.com #optional
+  website: https://colormono.com
 description: >- # this means to ignore newlines until "baseurl:"
-  @maxvoltar's minimalistic, self-hosted photo stream.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://maxvoltar.photo/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: maxvoltar
-github_username: maxvoltar
-instagram_username: maxvoltar
+  @colormonos's minimalistic, self-hosted photo stream.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://photos.colormono.com/' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: colormono
+github_username: colormono
+instagram_username: colormono
 
 # Build settings
 plugins:
@@ -52,10 +52,9 @@ image_processing:
   tint:
     source: photos/original
     destination: photos/tint
-    resize_to_fill: [1,1]
+    resize_to_fill: [1, 1]
     saver:
       strip: true
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
